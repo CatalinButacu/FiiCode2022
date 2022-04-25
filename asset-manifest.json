@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FiiCode2022/static/css/main.073c9b0a.css",
+    "main.js": "/FiiCode2022/static/js/main.91d6419d.js",
+    "static/js/787.973bfdca.chunk.js": "/FiiCode2022/static/js/787.973bfdca.chunk.js",
+    "static/media/logo.svg": "/FiiCode2022/static/media/logo.93b3afd56b74980485ea7813b6bfc222.svg",
+    "index.html": "/FiiCode2022/index.html",
+    "main.073c9b0a.css.map": "/FiiCode2022/static/css/main.073c9b0a.css.map",
+    "main.91d6419d.js.map": "/FiiCode2022/static/js/main.91d6419d.js.map",
+    "787.973bfdca.chunk.js.map": "/FiiCode2022/static/js/787.973bfdca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.91d6419d.js"
+  ]
+}
