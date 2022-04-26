@@ -6,23 +6,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />        
-        <i>App in construction...</i><br/>
+        <img src={logo} className="App-logo" alt="logo" />
+        <i id="txt">App in construction...</i><br />
         <p>Proba WebDev | FiiCode 2022</p>
-        <p>Echipa: Paul&Catalin</p>     
+        <p><span>Echipa: Paul&Catalin</span></p>
       </header>
     </div>
   );
 }
-
-function section(){
-  return(
-    <div>
-      <p>Sectiune noua</p>
-    </div>
-  )
-}
-
 
 export default App;
 
