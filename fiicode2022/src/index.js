@@ -9,14 +9,31 @@ import LoginPage from './Login';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>        
-        {/* <Navbar /> */}
-        {/* <LoginPage/> */}
-        <App />
-        
-    </React.StrictMode>
-);
+let ok=0;   
+switch(ok){
+    case 1: 
+        root.render(
+            <React.StrictMode>  
+                <LoginPage/>        
+            </React.StrictMode>
+            );break;
+    case 2:
+        root.render(
+            <React.StrictMode>    
+                <Navbar />
+            </React.StrictMode>
+        );break;
+    default:
+        root.render(
+            <React.StrictMode>  
+                <App />     
+            </React.StrictMode>
+        );break;
+
+}   
+   
+
+    
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

@@ -37,7 +37,7 @@ label{
 }
 input{
 	width: 60%;
-	height: 20px;
+	height: 40px !important;
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
@@ -72,7 +72,7 @@ button:hover{
 	background: #eee;
 	border-radius: 60% / 10%;
 	transform: translateY(-180px);
-	transition: .8s ease-in-out;
+	transition: .7s ease-in-out;
 }
 .login label{
 	color: #573b8a;
